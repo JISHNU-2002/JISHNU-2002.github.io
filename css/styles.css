@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 4.5rem; /* Adjust to accommodate fixed navbar */
+    background-color: #f0f0f1c9; /* Match this color with your navbar */
+    margin-bottom: 4.5rem; /* Equal gap from bottom of footer */
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center; /* Center align text */
+    margin-bottom: 1rem; /* Space below heading */
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center; /* Center align text */
+    margin-bottom: 2rem; /* Space below paragraph */
+}
+
+.footer {
+    color: #291c1c;
+    text-align: center; /* Center align text */
+    padding: 1rem 0; /* Padding inside footer */
+}
+
+@media (max-width: 576px) {
+    .navbar-expand-lg .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/* Ensure the profile picture is a perfect circle */
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Maintain aspect ratio and cover area */
+    border-radius: 50%; /* Make it a circle */
+    border: 4px solid #fff; /* White border */
+}
+
+/* Animation for the text */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-text {
+    animation: fadeIn 1s ease-in-out; /* Adjust animation duration */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    margin-top: 0;
+}
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+.card ul li {
+    margin-bottom: 10px;
+}
+.skills, .contact, .languages, .hobbies, .interests{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills div, .contact div, .languages div, .hobbies div, .interests div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* Address style */
+.contact address {
+    margin: 0; /* Reset default margin for address tag */
+    font-style: normal; /* Ensure address is not italicized by default */
+    line-height: 1.6; /* Adjust line height for readability */
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
