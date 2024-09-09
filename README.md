@@ -19,8 +19,11 @@ Platform connecting individuals willing to donate excess food with those in need
 #### Network Protocol Implementations
 TCP, UDP, SMTP, FTP, DVR, LBA and sliding window protocols
 
-#### Machine Learning Projects
-Projects demonstrating linear and multivariable regression for predicting continuous outcomes and classification projects using logistic regression for binary and multiclass problems
+#### MLTechniques
+Projects demonstrating Supervised & Unsupervised Machine Learning Techniques
+
+### DBMS-MySQL-Solutions
+A comprehensive collection of solutions and examples related to database management systems using MySQL
 
 #### Compiler-Design & Operating-System Coding
 Projects the implements all stages of Compiler Design and Important programs in Operating Systems
